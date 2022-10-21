@@ -1,0 +1,37 @@
+
+
+# Task 1
+name1 = input("What is your name?")
+print("Hello",name1)
+
+# Task 2
+Celcius = input("Enter a temperature in celcius")
+Celcius = float(Celcius)
+Fahrenheit = Celcius * 1.8 + 32
+print (Celcius,"C Is equal to",Fahrenheit,"F")
+
+#Task 3
+
+Students = input("How many Students")
+Students = float(Students)
+GroupSize = input("Required Group size")
+GroupSize = float(GroupSize)
+
+LeftOver = Students % GroupSize
+Full = Students // GroupSize
+
+
+print("There will be",Full,"with",LeftOver,"students left over.")
+
+#Task 4
+
+Sweets = input("How many sweets in the jar")
+S1 = float(Sweets)
+
+Pupils = input("How many pupils are present")
+P1 = float(Pupils)
+
+LeftOver = S1 % P1
+Full = S1 // P1
+
+print("Give",Full," to each student and you have",LeftOver,"left.")
